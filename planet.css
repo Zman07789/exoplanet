@@ -1,0 +1,77 @@
+/* by zackpaulson */
+
+body {
+    font-family: 'Moon', 'Avenir', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    background-color: #222;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.author {
+    text-align: right;
+}
+
+main {
+    text-align: left;
+}
+
+.image-container {
+    text-align: right;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.moon-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    float: right;
+}
+
+.occupied-image {
+    padding-right: 45px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .moon-image {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .image-container {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        max-width: 600px;
+    }
+}
